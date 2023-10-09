@@ -75,7 +75,7 @@ jobs:
           check-manifest -v
       - name: Build pure Python package
         run: |
-          python setup.py sdist
+          python setup.py bdist_wheel
       - uses: actions/upload-artifact@v3
         with:
           name: sdist
