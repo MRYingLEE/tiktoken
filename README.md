@@ -1,3 +1,5 @@
+For testing only
+
 # Clone and added Pure python implementation.
 
 This is a fork of https://github.com/openai/tiktoken with the tokenizer available as a pure python implementation. 
